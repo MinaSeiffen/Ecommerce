@@ -1,0 +1,153 @@
+.ads{
+    height: 100vh;
+    background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+    display: flex;   
+}
+
+.ads-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.ads-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.ads-left p{
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.ads-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ads-hand-icon img{
+    width: 105px;
+}
+
+.ads-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.ads-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:1280px){
+    .ads-left{
+        padding-left: 100px;
+    }
+    .ads-left h2{
+        font-size: 22px;
+    }
+    .ads-left p{
+        font-size: 60px;
+    }
+    .ads-hand-icon img{
+        width: 80px;
+    }
+    .ads-latest-btn{
+        gap: 10px;
+        width: 250px;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .ads-right img{
+        width: 500px;
+    }
+}
+
+@media(max-width:1024px){
+    .ads-left{
+        padding-left: 80px;
+    }
+    .ads-left h2{
+        font-size: 20px;
+    }
+    .ads-left p{
+        font-size: 50px;
+    }
+    .ads-hand-icon img{
+        width: 65px;
+    }
+    .ads-latest-btn{
+        width: 220px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .ads-right img{
+        width: 400px;
+    }
+}
+
+@media(max-width:800px){
+    .ads-left{
+        padding-left: 30px;
+    }
+    .ads-left h2{
+        font-size: 16px;
+    }
+    .ads-left p{
+        font-size: 40px;
+    }
+    .ads-hand-icon img{
+        width: 50px;
+    }
+    .ads-latest-btn{
+        width: 170px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .ads-right img{
+        width: 300px;
+    }
+}
+
+@media(max-width:500px){
+    .ads-left{
+        flex-direction: column;
+    }
+    .ads-left h2{
+        font-size: 18px;
+    }
+    .ads-left p{
+        font-size: 50px;
+    }
+    .ads-hand-icon img{
+        width: 55px;
+    }
+    .ads-latest-btn{
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .ads-right img{
+        display: none;
+    }
+}
